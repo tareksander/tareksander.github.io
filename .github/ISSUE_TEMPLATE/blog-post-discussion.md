@@ -7,4 +7,4 @@ assignees: ''
 
 ---
 
-(Link to the post)[].
+(Link to the post)[https://tareksander.github.io/].

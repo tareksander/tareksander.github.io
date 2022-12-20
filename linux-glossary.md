@@ -16,7 +16,9 @@ Something isn't listed? [Request a new term for the glossary](https://github.com
 
 **Package Manager**: A program to manage your other installed programs and update them. Typically a distribution has one package manager it uses.
 
-**Shell**: A programm running in a terminal that accepts commands from the user and executes them.
+**Shell**: A program running in a terminal that accepts commands from the user and executes them.
+
+**System Call**: Programs can use functions from the operating system only in an interface the operating system exposes to them. This interface is the mechanism of system calls. Things like reading, writing, creating and deleting files, connecting to the internet and communicating with other programs is all realized with system calls under the hood.
 
 **Terminal**: A device with a text display and a keyboard. Also used for terminal emulators.
 

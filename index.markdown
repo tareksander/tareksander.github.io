@@ -5,3 +5,5 @@
 layout: home
 regenerate: true
 ---
+
+[Request a post topic](https://github.com/tareksander/tareksander.github.io/issues/new?labels=topic+request&template=topic-request.md&title=%3CTOPIC%3E)

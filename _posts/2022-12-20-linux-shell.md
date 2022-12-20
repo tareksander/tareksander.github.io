@@ -52,7 +52,7 @@ A new line in these code snippets means you have  to press enter. Pressing enter
 This snippet first navigates to your home directory, then to the directory named "linux", then back out again.
 `..` is a special directory that means "the parent directory", so you can easily navigate to parent directories.  
 
-Then it navigates to the `blog` subdiredory of the `linux` directory. That demonstates that you have to use `/`to separate a folder name from the subfolder name.  
+Then it navigates to the `blog` subdirectories of the `linux` directory. That demonstrates that you have to use `/`to separate a folder name from the sub-folder name.  
 
 The last command navigates back to your home directory. It navigates to the parent directory of the parent directory, so 2 levels up, which is the home directory in this case.  
 
@@ -78,6 +78,12 @@ To delete a file, use `rm PATH`.
 If you want to delete a folder with contents, use `rm -r PATH` (make sure you want to delete everything in it though).
 
 
+## Options
+
+The `-r` in `rm -r PATH` is an option. Options are optional information you can pass to programs. There are 2 types of options:
+- Flags: These can be enabled with `-` and the option letter or `--LONGER_OPTION_NAME` for options with more than one letter
+- Values: Like flags, but the next thing you specify is the value: `curl -o google.html https://www.google.com` would download https://www.google.com to  the file `google.html`.
+
 ## Copying and Moving
 
 To copy use `cp SOURCE DESTINATION`.
@@ -95,6 +101,21 @@ For the current directory `ls` is enough.
 
 You can print files to the terminal with `cat FILE`, or edit them with an editor of your choice.  
 Personally I use `nano` because displays the keys you need and I'm too lazy to learn a full terminal text editor.
+
+
+## Downloading
+
+To download files, you can use `curl` or `wget` with the URL you want to download:  
+`curl -o google.html https://www.google.com`
+
+
+## Advanced Usage
+
+If you want do do something in the general theme of one of the applications I showed, chances are it can actually do it.  
+Most applications support the flags `-h` or `--help` which shows more information about the application.  
+For more in-depth information there is the separate command `man`, which you may have to install yourself.
+Use it with `man COMMAND_NAME`.
+
 
 
 [^1]: If you don't know any terms, check out [the glossary](/linux-glossary.html)

@@ -116,7 +116,12 @@ If you want do do something in the general theme of one of the applications I sh
 Most applications support the flags `-h` or `--help` which shows more information about the application.  
 For more in-depth information there is the separate command `man`, which you may have to install yourself.
 Use it with `man COMMAND_NAME`.
+  
+  
 
+That was an introduction into some basic commands. The next post is about useful shell features.
+
+[Here is my next post in this series]({% post_url 2022-12-20-linux-shell-2 %}).
 
 
 [^1]: If you don't know any terms, check out [the glossary](/linux-glossary.html)

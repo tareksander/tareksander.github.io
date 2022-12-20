@@ -4,6 +4,8 @@ title:  "Linux Glossary"
 category: linux
 ---
 
+Something isn't listed? [Request a new term for the glossary](https://github.com/tareksander/tareksander.github.io/issues/new?&template=glossary-entry.md&title=[GLOSSARY]+<TERM+YOU+DON'T+KNOW>).
+
 **Android**: A Linux-based operating system using Google's Bionic libc instead of glibc and many interfaces not found on desktop Linux-based operating systems. Many standard Linux concepts are restricted and abstracted away from applications, though many are still accessible (but unsupported).
 
 **Bash**: The most popular shell, preinstalled on many distributions.
@@ -19,7 +21,6 @@ category: linux
 **Terminal**: A device with a text display and a keyboard. Also used for terminal emulators.
 
 **Terminal Emulator**: A program that accepts commands and text like a hardware terminal, but outputs them on a window on a pixel-based display.
-
 
 
 

@@ -25,13 +25,15 @@
 title: tsanderdev Blogs
 email: tsanderdev@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Programming and Linux blogs.
+  Programming and Linux blogs
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://tareksander.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 markdown: kramdown
 #twitter_username: 
 github_username:  tareksander
 reddit_username:  tsanderdev
+matrix_username:  tareksander
+
 
 # Build settings
 theme: minima
@@ -51,6 +53,8 @@ exclude:
     - Gemfile
     - Gemfile.lock
     - .jekyll-cache/
+    - README.md
+    - about.markdown
 #   - .sass-cache/
 #   - gemfiles/
 #   - node_modules/

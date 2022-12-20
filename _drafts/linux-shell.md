@@ -11,8 +11,6 @@ Also commonly installed is a minimal set of programs:
     - `ls`
     - `echo`
     - `cat`
-    - `chmod`
-    - `chown`
     - `cp`
     - `mv`
     - `mkdir`
@@ -58,8 +56,9 @@ Then it navigates to the `blog` subdiredory of the `linux` directory. That demon
 
 The last command navigates back to your home directory. It navigates to the parent directory of the parent directory, so 2 levels up, which is the home directory in this case.  
 
-When your names include spaces, you have to enclose them with \"\": `cd "my path with spaces"`.  
+When your names include spaces, you have to enclose them with `""`: `cd "my path with spaces"`.  
 The shell would interpret each word separated by the spaces as its own path otherwise.  
+If your path includes \" or \$, you have to use `''` instead.
 
 Shells also support something called tab completion, so you don't have to type as much.
 When you enter a command or path and hit enter, the shell looks for command names or files/directories that match what you typed. If there is only 1 result to this search, the shell will complete the command or path for you.
@@ -67,10 +66,36 @@ When you enter a command or path and hit enter, the shell looks for command name
 
 ## Creating and Deleting Directories
 
-The above snippet likely doesn't work for you, as you may not have the directory `~/linux/blog`.
+The above snippet likely doesn't work for you, as you may not have the directory `~/linux/blog`.  
+To create a directory, use `mkdir PATH`, or `mkdir -p PATH` if your path contains a parent directory that doesn't exist.  
+To delete an empty directory, use `rmdir PATH`.
 
 
+## Creating and Deleting Files
+
+To create an empty file, use `touch PATH`.  
+To delete a file, use `rm PATH`.  
+If you want to delete a folder with contents, use `rm -r PATH` (make sure you want to delete everything in it though).
 
 
-[^1]: If you don't know any terms, check out [the glossary]({% post_url 2022-12-19-linux-glossary %})
+## Copying and Moving
+
+To copy use `cp SOURCE DESTINATION`.
+To move, use `mv` instead.
+
+
+## Listing Directory Contents
+
+But how do you know which files and folders you can copy and move?  
+You can use `ls PATH` to list them.  
+For the current directory `ls` is enough.
+
+
+## File Content
+
+You can print files to the terminal with `cat FILE`, or edit them with an editor of your choice.  
+Personally I use `nano` because displays the keys you need and I'm too lazy to learn a full terminal text editor.
+
+
+[^1]: If you don't know any terms, check out [the glossary](/linux-glossary.html)
 

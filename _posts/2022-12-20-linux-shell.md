@@ -2,6 +2,7 @@
 layout: post
 title:  "Linux Shell Basics"
 category: linux
+issueid: 1
 ---
 
 To interact with a terminal[^1], you need shell to accept your commands and run them.  

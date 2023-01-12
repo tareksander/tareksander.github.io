@@ -3,6 +3,7 @@ layout: post
 title:  "Termux Beginner Guide"
 category: termux
 issueid: 2
+date: 2022-12-20 11:00:00
 ---
 
 Termux is a terminal emulator that uses the standard bash shell.  

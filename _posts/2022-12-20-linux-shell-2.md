@@ -3,6 +3,7 @@ layout: post
 title:  "Linux Shell Basics 2"
 category: linux
 issueid: 3
+date: 2022-12-20 12:00:00
 ---
 
 
@@ -143,4 +144,5 @@ and send you back the file without clobbering the directory with temporary uncom
 These are the main handy features for interactive shell use. The next post is about creating shell scripts.
 
 
+[Here is my next post in this series]({% post_url 2023-01-12-linux-shell-3 %}).
 
